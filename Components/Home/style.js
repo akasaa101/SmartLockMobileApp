@@ -1,0 +1,83 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  scrollView: {
+    flex: 1,
+    padding: 20,
+    paddingHorizontal: 30,
+  },
+  container: {
+    flex: 1,
+    paddingTop: 50,
+    alignItems: 'center',
+  },
+  title: {
+    color: '#FFFFFF',
+    fontSize: 30,
+    alignSelf: 'flex-start',
+    marginBottom: 20,
+  },
+  itemButton: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    marginVertical: 12,
+    minWidth: '100%',
+    minHeight: 75,
+    backgroundColor: '#00000030',
+    borderRadius: 16,
+  },
+  locksContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '100%',
+    marginTop: 20,
+    marginBottom: 16,
+  },
+  locksHeader: {
+    fontSize: 24,
+    lineHeight: 24,
+    color: '#FEFEFE',
+  },
+  locksInnerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '100%',
+    marginBottom: 12,
+    padding: 20,
+    backgroundColor: '#2F3462',
+    borderRadius: 16,
+  },
+  lockTitle: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#FEFEFE',
+  },
+  lockStatus: {
+    fontSize: 13,
+    lineHeight: 20,
+    color: '#F7F7F7',
+  },
+  logoutContainer: {
+    flexDirection: 'row',
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 100,
+    height: 100,
+    marginBottom: 12,
+    marginTop: 50,
+    backgroundColor: '#ef476f',
+    borderRadius: 180,
+  },
+  logoutTitle: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#FEFEFE',
+  },
+});

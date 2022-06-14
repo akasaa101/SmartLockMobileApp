@@ -1,0 +1,60 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    marginTop: 50,
+    paddingHorizontal: 40,
+    color: '#FFFFFF',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '105%',
+    marginBottom: 30,
+    color: '#FFFFFF',
+  },
+  input: {
+    backgroundColor: 'transparent',
+    borderRadius: 8,
+    borderBottomWidth: 0,
+    color: '#FFFFFF',
+  },
+  font: {
+    fontSize: 20,
+    color: '#FFFFFF',
+    fontWeight: '700',
+    lineHeight: 24,
+    opacity: 1,
+  },
+  lockContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#1E1F2014',
+    borderRadius: 16,
+    paddingTop: 20,
+    paddingHorizontal: 30,
+    width: '100%',
+    height: 300,
+  },
+  deleteContainer: {
+    flexDirection: 'row',
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 100,
+    height: 100,
+    marginBottom: 12,
+    marginTop: 50,
+    backgroundColor: '#ef476f',
+    borderRadius: 180,
+  },
+  deleteTitle: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#FEFEFE',
+  },
+});

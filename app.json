@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "smartlock",
+    "slug": "smartlock",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saraabuowaimir.smartlock"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.saraabuowaimir.smartlock"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Fixed Lock Edit",
+    "plugins": [
+      [
+        "react-native-nfc-manager",
+        {
+          "nfcPermission": "Application require NFC Access"
+        }
+      ]
+    ]
+  }
+}
